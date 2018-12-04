@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>AG Web Design</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Ubuntu" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="main.css" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"> </script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	
+	
+</head>
+
+<body>
+
+
+	<div id="container-fluid">
+
+	
+
+	<svg class="svgtest" viewbox="20 0 700 1100" preserveaspectratio="none"  version="1.1" xmlns="http://www.w3.org/2000/svg">
+		<defs>
+			<pattern id="imgpattern" x="0" y="0" width="100" height="6">
+				<image width="793" height="496" xlink:href="http://gastv.mx/wp-content/uploads/2014/05/jumex.jpg" />
+			</pattern>
+		</defs>
+		
+		
+		<rect fill="url(#imgpattern)" x="-221" y="162.7" transform="matrix(0.995 1.8004 -0.8004 0.995 402.7513 -7.0844)" class="st1" width="1000"
+		 height="49.6" />
+		<rect fill="url(#imgpattern)" x="-221" y="158.4" transform="matrix(0.995 1.8004 -0.8004 0.995 402.7513 -7.0844)" class="st2"
+		 width="2000" height="58.6" />
+	</svg>
+
+	<div id="welcome">
+		<h1>AG.</h1>
+		<h2 class="frontpage">Hi, I'm Andrey Grusheskiy. I design and code fast, responsive websites.</h2>
+		<a class="btn-contactme" href="#myModal" role="button" data-toggle="modal">CONTACT ME</a>
+	</div>
+
+	
+
+	<div class="inner">
+		<ul class="activity">
+			<li class="aboutme">
+				<a href="#">ABOUT</a>
+			</li>
+			<li class="skills">
+				<a href="#">SKILLS</a>
+			</li>
+			<li class="mywork">
+				<a href="#">WORK</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="abcs">
+		<p>aboutmesection</p>
+	</div>
+
+	<div class="skillssection">
+
+	</div>
+
+	<div class="myworksection">
+
+	</div>
+	<!-- Modal HTML -->
+	<div id="myModal" class="modal fade">
+		<div class="modal-dialog modal-lg contact-modal">
+			<div class="modal-content">
+				<form action="/examples/actions/confirmation.php" method="post">
+					<div class="modal-header">
+						<h4 class="modal-title">Send me a message</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" class="form-control" id="inputName" placeholder="Name" required>
+								</div>
+								<div class="form-group">
+									<input type="email" class="form-control" id="inputEmail2" placeholder="Email" required>
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control" id="inputEmail3" placeholder="Phone" required>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<textarea class="form-control" id="inputMessage" placeholder="Message" required></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<input type="button" class="btn btn-link" data-dismiss="modal" value="Cancel">
+						<input type="submit" class="btn btn-primary" value="Send">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- End Modal HTML -->
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
